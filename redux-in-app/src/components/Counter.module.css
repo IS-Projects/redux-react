@@ -25,3 +25,9 @@
 .counter button {
   margin: 1rem;
 }
+
+.counter button:disabled {
+  background-color: #aaaaaa;
+  border-color: #aaaaaa;
+  cursor: not-allowed;
+}
